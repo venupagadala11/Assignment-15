@@ -1,0 +1,6 @@
+<h3>Pipes</h3>
+<p>We reverse a string here : {{str | uppercase }}</p>
+<p>We reverse a string here : {{str | strReverse }}</p><br>
+<input type="text" #input>
+<button (click)="add(input.value)">Add</button>
+<app-child [data]="sendingData" ></app-child>
